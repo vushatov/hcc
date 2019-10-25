@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginPage</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c55aa533-52b1-4311-a2d5-01acf651f009</testSuiteGuid>
+   <testCaseLink>
+      <guid>0fc90aa0-ce65-4580-83a1-bf2933fa44be</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginPage/CheckElementsOfPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02a98f1e-2212-4966-84e5-e5064ee2d4e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginPage/Login by Username</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ae1bd65f-2e8e-4fc8-a494-381032bb8f28</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataForLogin/CredentialsForLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ae1bd65f-2e8e-4fc8-a494-381032bb8f28</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>02849cc3-2b79-4f42-a8c9-d6ba01c842a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ae1bd65f-2e8e-4fc8-a494-381032bb8f28</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>97957614-0ba4-45d9-8715-1ddb4b2a857b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3775a949-0090-4925-b25d-6d430a5baf9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LoginPage/Login by Email</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>99dc9ce7-92aa-4962-b2a9-b778b8dd5814</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataForLogin/CredentialsForLogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>99dc9ce7-92aa-4962-b2a9-b778b8dd5814</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>29454444-7a5b-40c0-94bb-501a67362ea3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>99dc9ce7-92aa-4962-b2a9-b778b8dd5814</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>346c20bb-d7d3-41b9-8d25-45a7d11d47c4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

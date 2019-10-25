@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+StartPage,Chrome 77.0.3865.120,,,2019-10-25 15:37:18,2019-10-25 15:37:30,"12,006s",INCOMPLETE
+,,,,,,,
+Test Cases/StartPage/CheckElementsOfPage,Chrome 77.0.3865.120,,,2019-10-25 15:37:18,2019-10-25 15:37:25,"6,427s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/"")",Chrome 77.0.3865.120,,,2019-10-25 15:37:19,2019-10-25 15:37:23,"4,124s",PASSED
+checkElementsPresents(),Chrome 77.0.3865.120,,,2019-10-25 15:37:23,2019-10-25 15:37:23,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/div_XR Expo 2019""), 1)",Chrome 77.0.3865.120,,,2019-10-25 15:37:23,2019-10-25 15:37:23,"0,150s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/LoginButton""), 1)",Chrome 77.0.3865.120,,,2019-10-25 15:37:23,2019-10-25 15:37:23,"0,070s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/RealDigitalSolutions""), 1)",Chrome 77.0.3865.120,,,2019-10-25 15:37:23,2019-10-25 15:37:23,"0,076s",PASSED
+"setViewPortSize(1920, 1080)",Chrome 77.0.3865.120,,,2019-10-25 15:37:23,2019-10-25 15:37:24,"1,156s",PASSED
+checkElementsVisible(),Chrome 77.0.3865.120,,,2019-10-25 15:37:24,2019-10-25 15:37:24,"0,002s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/div_XR Expo 2019""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:24,2019-10-25 15:37:24,"0,148s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/LoginButton""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:24,2019-10-25 15:37:24,"0,066s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/RealDigitalSolutions""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:24,2019-10-25 15:37:24,"0,075s",PASSED
+"setViewPortSize(1024, 750)",Chrome 77.0.3865.120,,,2019-10-25 15:37:24,2019-10-25 15:37:25,"0,123s",PASSED
+checkElementsVisible(),Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:25,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/div_XR Expo 2019""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:25,"0,060s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/LoginButton""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:25,"0,062s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/RealDigitalSolutions""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:25,"0,064s",PASSED
+,,,,,,,
+Test Cases/StartPage/GoToTheLogin,Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:30,"5,359s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net"")",Chrome 77.0.3865.120,,,2019-10-25 15:37:25,2019-10-25 15:37:28,"3,355s",PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-25 15:37:28,2019-10-25 15:37:29,"1,173s",PASSED
+"click(findTestObject(""StartPage/LoginButton""))",Chrome 77.0.3865.120,,,2019-10-25 15:37:29,2019-10-25 15:37:30,"0,685s",PASSED
+ActualURL = getUrl(),Chrome 77.0.3865.120,,,2019-10-25 15:37:30,2019-10-25 15:37:30,"0,016s",PASSED
+"ExpectedURL = ""http://hcc-asset-server.program-ace.net/login""",Chrome 77.0.3865.120,,,2019-10-25 15:37:30,2019-10-25 15:37:30,"0,000s",PASSED
+if (ActualURL.compareTo(ExpectedURL) == 0),Chrome 77.0.3865.120,,,2019-10-25 15:37:30,2019-10-25 15:37:30,"0,007s",PASSED

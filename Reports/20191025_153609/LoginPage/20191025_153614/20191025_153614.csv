@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginPage,Edge 18,,,2019-10-25 15:39:19,2019-10-25 15:44:31,"5m - 12,356s",INCOMPLETE
+,,,,,,,
+Test Cases/LoginPage/CheckElementsOfPage,Edge 18,,,2019-10-25 15:39:19,2019-10-25 15:39:33,"13,798s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:39:19,2019-10-25 15:39:23,"3,061s",PASSED
+checkElementsPresents(),Edge 18,,,2019-10-25 15:39:23,2019-10-25 15:39:23,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/button_Login""), 1)",Edge 18,,,2019-10-25 15:39:23,2019-10-25 15:39:23,"0,375s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/EmailField(Username)""), 1)",Edge 18,,,2019-10-25 15:39:23,2019-10-25 15:39:23,"0,263s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""), 1)",Edge 18,,,2019-10-25 15:39:23,2019-10-25 15:39:24,"0,343s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Image""), 1)",Edge 18,,,2019-10-25 15:39:24,2019-10-25 15:39:24,"0,282s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/PasswordField""), 1)",Edge 18,,,2019-10-25 15:39:24,2019-10-25 15:39:24,"0,294s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""), 1)",Edge 18,,,2019-10-25 15:39:24,2019-10-25 15:39:24,"0,281s",PASSED
+"setViewPortSize(1920, 1080)",Edge 18,,,2019-10-25 15:39:24,2019-10-25 15:39:27,"2,448s",PASSED
+checkElementsVisible(),Edge 18,,,2019-10-25 15:39:27,2019-10-25 15:39:27,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/button_Login""))",Edge 18,,,2019-10-25 15:39:27,2019-10-25 15:39:27,"0,320s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/EmailField(Username)""))",Edge 18,,,2019-10-25 15:39:27,2019-10-25 15:39:28,"0,590s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""))",Edge 18,,,2019-10-25 15:39:28,2019-10-25 15:39:28,"0,290s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Image""))",Edge 18,,,2019-10-25 15:39:28,2019-10-25 15:39:28,"0,278s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/PasswordField""))",Edge 18,,,2019-10-25 15:39:28,2019-10-25 15:39:29,"0,308s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:39:29,2019-10-25 15:39:29,"0,296s",PASSED
+"setViewPortSize(1024, 750)",Edge 18,,,2019-10-25 15:39:29,2019-10-25 15:39:31,"2,397s",PASSED
+checkElementsVisible(),Edge 18,,,2019-10-25 15:39:31,2019-10-25 15:39:31,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/button_Login""))",Edge 18,,,2019-10-25 15:39:31,2019-10-25 15:39:32,"0,299s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/EmailField(Username)""))",Edge 18,,,2019-10-25 15:39:32,2019-10-25 15:39:32,"0,312s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""))",Edge 18,,,2019-10-25 15:39:32,2019-10-25 15:39:32,"0,297s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Image""))",Edge 18,,,2019-10-25 15:39:32,2019-10-25 15:39:33,"0,293s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/PasswordField""))",Edge 18,,,2019-10-25 15:39:33,2019-10-25 15:39:33,"0,272s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:39:33,2019-10-25 15:39:33,"0,270s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Edge 18,,,2019-10-25 15:39:33,2019-10-25 15:39:52,"18,639s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:39:33,2019-10-25 15:39:35,"1,698s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:39:35,2019-10-25 15:39:35,"0,034s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:39:35,2019-10-25 15:39:36,"0,849s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:39:36,2019-10-25 15:39:37,"0,704s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:39:37,2019-10-25 15:39:37,"0,303s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Edge 18,,,2019-10-25 15:39:37,2019-10-25 15:39:37,"0,296s",PASSED
+checkElementsVisible(),Edge 18,,,2019-10-25 15:39:37,2019-10-25 15:39:37,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Edge 18,,,2019-10-25 15:39:37,2019-10-25 15:39:52,"14,606s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Edge 18,,,2019-10-25 15:39:52,2019-10-25 15:39:59,"7,388s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:39:52,2019-10-25 15:39:54,"1,835s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:39:54,2019-10-25 15:39:54,"0,044s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:39:54,2019-10-25 15:39:54,"0,783s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:39:54,2019-10-25 15:39:55,"0,743s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:39:55,2019-10-25 15:39:56,"0,335s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Edge 18,,,2019-10-25 15:39:56,2019-10-25 15:39:56,"0,303s",PASSED
+checkElementsVisible(),Edge 18,,,2019-10-25 15:39:56,2019-10-25 15:39:56,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Edge 18,,,2019-10-25 15:39:56,2019-10-25 15:39:57,"1,019s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Edge 18,,,2019-10-25 15:39:57,2019-10-25 15:39:57,"0,607s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Edge 18,,,2019-10-25 15:39:57,2019-10-25 15:39:58,"0,309s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Edge 18,,,2019-10-25 15:39:58,2019-10-25 15:39:58,"0,314s",PASSED
+checkElementsPresents(),Edge 18,,,2019-10-25 15:39:58,2019-10-25 15:39:58,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Edge 18,,,2019-10-25 15:39:58,2019-10-25 15:39:58,"0,251s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Edge 18,,,2019-10-25 15:39:58,2019-10-25 15:39:59,"0,275s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Edge 18,,,2019-10-25 15:39:59,2019-10-25 15:39:59,"0,289s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Edge 18,,,2019-10-25 15:39:59,2019-10-25 15:39:59,"0,270s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Edge 18,,,2019-10-25 15:39:59,2019-10-25 15:40:44,"45,197s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:39:59,2019-10-25 15:40:01,"1,920s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:40:01,2019-10-25 15:40:01,"0,033s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:40:01,2019-10-25 15:40:16,"14,404s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:40:16,2019-10-25 15:40:30,"14,386s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:40:30,2019-10-25 15:40:44,"14,435s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Edge 18,,,2019-10-25 15:40:44,2019-10-25 15:41:30,"45,374s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:40:44,2019-10-25 15:40:46,"2,012s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:40:46,2019-10-25 15:40:46,"0,027s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:40:46,2019-10-25 15:41:01,"14,483s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:41:01,2019-10-25 15:41:15,"14,406s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:41:15,2019-10-25 15:41:30,"14,437s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Edge 18,,,2019-10-25 15:41:30,2019-10-25 15:42:16,"45,870s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:41:30,2019-10-25 15:41:32,"2,346s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:41:32,2019-10-25 15:41:32,"0,034s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:41:32,2019-10-25 15:41:47,"14,506s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:41:47,2019-10-25 15:42:01,"14,381s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:42:01,2019-10-25 15:42:16,"14,442s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Edge 18,,,2019-10-25 15:42:16,2019-10-25 15:43:01,"45,288s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:42:16,2019-10-25 15:42:18,"1,956s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:42:18,2019-10-25 15:42:18,"0,039s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:42:18,2019-10-25 15:42:32,"14,439s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:42:32,2019-10-25 15:42:47,"14,388s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:42:47,2019-10-25 15:43:01,"14,456s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Edge 18,,,2019-10-25 15:43:01,2019-10-25 15:43:46,"45,214s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:43:01,2019-10-25 15:43:03,"2,106s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:43:03,2019-10-25 15:43:03,"0,050s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:43:03,2019-10-25 15:43:18,"14,385s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:43:18,2019-10-25 15:43:32,"14,317s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:43:32,2019-10-25 15:43:46,"14,348s",FAILED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Edge 18,,,2019-10-25 15:43:46,2019-10-25 15:44:31,"45,192s",FAILED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Edge 18,,,2019-10-25 15:43:46,2019-10-25 15:43:48,"1,991s",PASSED
+maximizeWindow(),Edge 18,,,2019-10-25 15:43:48,2019-10-25 15:43:48,"0,035s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:43:48,2019-10-25 15:44:03,"14,389s",FAILED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Edge 18,,,2019-10-25 15:44:03,2019-10-25 15:44:17,"14,393s",FAILED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Edge 18,,,2019-10-25 15:44:17,2019-10-25 15:44:31,"14,372s",FAILED

@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/LoginPage/CheckElementsOfPage","testCaseId":"Test Cases/LoginPage/CheckElementsOfPage"}
+{"testCaseName":"Test Cases/LoginPage/Login by Username - Iteration 1","testCaseId":"Test Cases/LoginPage/Login by Username","bindedValues":{"Username":"\u0027admin\u0027","Password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Username - Iteration 2","testCaseId":"Test Cases/LoginPage/Login by Username","bindedValues":{"Username":"\u0027admin1\u0027","Password":"\u0027admin1admin1\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Username - Iteration 3","testCaseId":"Test Cases/LoginPage/Login by Username","bindedValues":{"Username":"\u0027user1\u0027","Password":"\u0027user1user1\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Username - Iteration 4","testCaseId":"Test Cases/LoginPage/Login by Username","bindedValues":{"Username":"\u0027manager1\u0027","Password":"\u0027manager1manager1\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Email - Iteration 1","testCaseId":"Test Cases/LoginPage/Login by Email","bindedValues":{"Email":"\u0027admin@example.com\u0027","Password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Email - Iteration 2","testCaseId":"Test Cases/LoginPage/Login by Email","bindedValues":{"Email":"\u0027admin1@gmail.com\u0027","Password":"\u0027admin1admin1\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Email - Iteration 3","testCaseId":"Test Cases/LoginPage/Login by Email","bindedValues":{"Email":"\u0027user1@gmail.com\u0027","Password":"\u0027user1user1\u0027"}}
+{"testCaseName":"Test Cases/LoginPage/Login by Email - Iteration 4","testCaseId":"Test Cases/LoginPage/Login by Email","bindedValues":{"Email":"\u0027manager@gmail.com\u0027","Password":"\u0027manager1manager1\u0027"}}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="StartPage" time="11" tests="2" failures="0" errors="0">
+    <testsuite name="StartPage" tests="2" failures="0" errors="0" time="11" timestamp="2019-10-25 15:37:33" hostname="vladi - DESKTOP-728KFTB" id="Test Suites/StartPage">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\vladi\\Katalon Studio\\hcc_asset_server\\Reports\\20191025_153609\\StartPage\\20191025_153611"/>
+            <property name="logFiles" value="C:\\Users\\vladi\\Katalon Studio\\hcc_asset_server\\Reports\\20191025_153609\\StartPage\\20191025_153611\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="vladi - DESKTOP-728KFTB"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="10.1.4.106"/>
+            <property name="sessionId" value="92bd1ca1-8641-4be7-83ed-bf485feceb29"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/StartPage/CheckElementsOfPage" classname="Test Cases/StartPage/CheckElementsOfPage" status="PASSED">
+            <system-out>2019-10-25 15:37:33 - [TEST_CASE][PASSED] - Test Cases/StartPage/CheckElementsOfPage: Test Cases/StartPage/CheckElementsOfPage&#xD;
+&#xD;
+2019-10-25 15:37:33 - [TEST_STEP][PASSED] - openBrowser("http://hcc-asset-server.program-ace.net/"): Browser is opened with url: 'http://hcc-asset-server.program-ace.net/'&#xD;
+&#xD;
+2019-10-25 15:37:33 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-10-25 15:37:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-10-25 15:37:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hcc-asset-server.program-ace.net/'&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - checkElementsPresents(): null&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("StartPage/div_XR Expo 2019"), 1): Object 'Object Repository/StartPage/div_XR Expo 2019' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/div_XR Expo 2019' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("StartPage/LoginButton"), 1): Object 'Object Repository/StartPage/LoginButton' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/LoginButton' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("StartPage/RealDigitalSolutions"), 1): Object 'Object Repository/StartPage/RealDigitalSolutions' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/RealDigitalSolutions' is present&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080&#xD;
+&#xD;
+2019-10-25 15:37:38 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - checkElementsVisible(): null&#xD;
+&#xD;
+2019-10-25 15:37:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/div_XR Expo 2019")): Object 'Object Repository/StartPage/div_XR Expo 2019' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/div_XR Expo 2019' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/LoginButton")): Object 'Object Repository/StartPage/LoginButton' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/LoginButton' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/RealDigitalSolutions")): Object 'Object Repository/StartPage/RealDigitalSolutions' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/RealDigitalSolutions' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - setViewPortSize(1024, 750): Viewport is set to new size with width = 1024 and height = 750&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 750&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - checkElementsVisible(): null&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/div_XR Expo 2019")): Object 'Object Repository/StartPage/div_XR Expo 2019' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/div_XR Expo 2019' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/LoginButton")): Object 'Object Repository/StartPage/LoginButton' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/LoginButton' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("StartPage/RealDigitalSolutions")): Object 'Object Repository/StartPage/RealDigitalSolutions' is visible&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/StartPage/RealDigitalSolutions' is visible</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/StartPage/GoToTheLogin" classname="Test Cases/StartPage/GoToTheLogin" status="PASSED">
+            <system-out>2019-10-25 15:37:39 - [TEST_CASE][PASSED] - Test Cases/StartPage/GoToTheLogin: Test Cases/StartPage/GoToTheLogin&#xD;
+&#xD;
+2019-10-25 15:37:39 - [TEST_STEP][PASSED] - openBrowser("http://hcc-asset-server.program-ace.net"): Browser is opened with url: 'http://hcc-asset-server.program-ace.net'&#xD;
+&#xD;
+2019-10-25 15:37:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-10-25 15:37:40 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-10-25 15:37:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hcc-asset-server.program-ace.net'&#xD;
+&#xD;
+2019-10-25 15:37:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-25 15:37:44 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-10-25 15:37:44 - [TEST_STEP][PASSED] - click(findTestObject("StartPage/LoginButton")): Object: 'Object Repository/StartPage/LoginButton' is clicked on&#xD;
+&#xD;
+2019-10-25 15:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/StartPage/LoginButton' is clicked on&#xD;
+&#xD;
+2019-10-25 15:37:44 - [TEST_STEP][PASSED] - ActualURL = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/login'&#xD;
+&#xD;
+2019-10-25 15:37:44 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/login'&#xD;
+&#xD;
+2019-10-25 15:37:44 - [TEST_STEP][PASSED] - ExpectedURL = "http://hcc-asset-server.program-ace.net/login": null&#xD;
+&#xD;
+2019-10-25 15:37:44 - [TEST_STEP][PASSED] - if (ActualURL.compareTo(ExpectedURL) == 0): null&#xD;
+&#xD;
+2019-10-25 15:37:44 - [TEST_STEP][PASSED] - out.print("URL is correct!"): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-25 15:37:33 - [TEST_SUITE][INCOMPLETE] - StartPage: null</system-out>
+        <system-err>2019-10-25 15:37:33 - [TEST_SUITE][INCOMPLETE] - StartPage: null</system-err>
+    </testsuite>
+</testsuites>

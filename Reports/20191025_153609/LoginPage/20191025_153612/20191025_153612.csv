@@ -1,0 +1,172 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginPage,Firefox 69.0,,,2019-10-25 15:37:47,2019-10-25 15:38:57,"1m - 9,752s",INCOMPLETE
+,,,,,,,
+Test Cases/LoginPage/CheckElementsOfPage,Firefox 69.0,,,2019-10-25 15:37:47,2019-10-25 15:37:54,"7,038s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:37:48,2019-10-25 15:37:53,"5,346s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,002s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/button_Login""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,161s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/EmailField(Username)""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,052s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,054s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Image""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,062s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/PasswordField""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,073s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""), 1)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:53,"0,054s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-25 15:37:53,2019-10-25 15:37:54,"0,094s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,078s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/EmailField(Username)""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,071s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,068s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Image""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,073s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/PasswordField""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,067s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,063s",PASSED
+"setViewPortSize(1024, 750)",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,045s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,072s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/EmailField(Username)""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,076s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/h1_Welcome Back""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,066s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Image""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,075s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/PasswordField""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,069s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:37:54,"0,075s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Firefox 69.0,,,2019-10-25 15:37:54,2019-10-25 15:38:01,"6,732s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:37:55,2019-10-25 15:37:59,"4,534s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:37:59,2019-10-25 15:37:59,"0,281s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:37:59,2019-10-25 15:38:00,"0,115s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:00,2019-10-25 15:38:00,"0,077s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:00,2019-10-25 15:38:00,"0,324s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:00,2019-10-25 15:38:01,"0,808s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,077s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,075s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,062s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,062s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,048s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,047s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,046s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:01,"0,044s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:08,"6,509s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:01,2019-10-25 15:38:06,"4,662s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:06,2019-10-25 15:38:06,"0,279s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:06,2019-10-25 15:38:06,"0,077s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:06,2019-10-25 15:38:06,"0,086s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:06,2019-10-25 15:38:07,"0,271s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:07,"0,691s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:07,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:07,"0,076s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:07,"0,054s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:07,"0,054s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:07,2019-10-25 15:38:08,"0,056s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:08,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:08,"0,048s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:08,"0,037s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:08,"0,041s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:08,"0,039s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:14,"6,736s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:08,2019-10-25 15:38:13,"4,769s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:13,2019-10-25 15:38:13,"0,272s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:13,2019-10-25 15:38:13,"0,080s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:13,2019-10-25 15:38:13,"0,082s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:13,2019-10-25 15:38:13,"0,275s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:13,2019-10-25 15:38:14,"0,793s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,090s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,075s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,065s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,064s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,038s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,042s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:14,"0,039s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Username,Firefox 69.0,,,2019-10-25 15:38:14,2019-10-25 15:38:22,"7,474s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:15,2019-10-25 15:38:19,"4,557s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:19,2019-10-25 15:38:19,"0,286s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Username, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:19,2019-10-25 15:38:19,"0,134s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:19,2019-10-25 15:38:20,"0,203s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:20,2019-10-25 15:38:20,"0,304s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:20,2019-10-25 15:38:21,"1,027s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,102s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,090s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,071s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,066s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:21,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:21,2019-10-25 15:38:22,"0,427s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:22,2019-10-25 15:38:22,"0,051s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:22,2019-10-25 15:38:22,"0,066s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:22,2019-10-25 15:38:22,"0,072s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Firefox 69.0,,,2019-10-25 15:38:22,2019-10-25 15:38:35,"13,140s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:22,2019-10-25 15:38:33,"10,823s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:33,2019-10-25 15:38:33,"0,276s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:33,2019-10-25 15:38:34,"0,170s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:34,2019-10-25 15:38:34,"0,070s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:34,2019-10-25 15:38:34,"0,272s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:34,2019-10-25 15:38:35,"0,804s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,070s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,059s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,071s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,056s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,038s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,039s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:35,"0,039s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:42,"7,076s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:35,2019-10-25 15:38:40,"5,027s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:40,2019-10-25 15:38:40,"0,277s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:40,2019-10-25 15:38:41,"0,172s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:41,2019-10-25 15:38:41,"0,076s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:41,2019-10-25 15:38:41,"0,268s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:41,2019-10-25 15:38:42,"0,837s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,065s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,057s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,056s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,057s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,038s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,042s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:42,"0,040s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:50,"7,467s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:42,2019-10-25 15:38:48,"5,433s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:48,2019-10-25 15:38:48,"0,273s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:48,2019-10-25 15:38:48,"0,111s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:48,2019-10-25 15:38:48,"0,074s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:48,2019-10-25 15:38:48,"0,268s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:48,2019-10-25 15:38:49,"0,890s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:49,2019-10-25 15:38:49,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:49,2019-10-25 15:38:49,"0,072s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:49,2019-10-25 15:38:49,"0,059s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:49,2019-10-25 15:38:49,"0,057s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:49,2019-10-25 15:38:50,"0,057s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:50,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:50,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:50,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:50,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:50,"0,042s",PASSED
+,,,,,,,
+Test Cases/LoginPage/Login by Email,Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:57,"7,192s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/login"")",Firefox 69.0,,,2019-10-25 15:38:50,2019-10-25 15:38:55,"5,185s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:38:55,2019-10-25 15:38:55,"0,272s",PASSED
+"setText(findTestObject(""LoginPage/EmailField(Username)""), Email, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:55,2019-10-25 15:38:55,"0,149s",PASSED
+"setText(findTestObject(""LoginPage/PasswordField""), Password, CONTINUE_ON_FAILURE)",Firefox 69.0,,,2019-10-25 15:38:55,2019-10-25 15:38:55,"0,078s",PASSED
+"click(findTestObject(""LoginPage/Remember Me Checkbox""))",Firefox 69.0,,,2019-10-25 15:38:55,2019-10-25 15:38:56,"0,268s",PASSED
+"click(findTestObject(""LoginPage/button_Login""))",Firefox 69.0,,,2019-10-25 15:38:56,2019-10-25 15:38:56,"0,809s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:38:56,2019-10-25 15:38:56,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Firefox 69.0,,,2019-10-25 15:38:56,2019-10-25 15:38:57,"0,071s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,059s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,056s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,060s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,040s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,041s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,039s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Firefox 69.0,,,2019-10-25 15:38:57,2019-10-25 15:38:57,"0,051s",PASSED

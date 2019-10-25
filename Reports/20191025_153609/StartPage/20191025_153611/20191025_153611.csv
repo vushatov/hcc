@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+StartPage,Firefox 69.0,,,2019-10-25 15:37:33,2019-10-25 15:37:44,"11,831s",INCOMPLETE
+,,,,,,,
+Test Cases/StartPage/CheckElementsOfPage,Firefox 69.0,,,2019-10-25 15:37:33,2019-10-25 15:37:39,"6,204s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net/"")",Firefox 69.0,,,2019-10-25 15:37:33,2019-10-25 15:37:38,"4,930s",PASSED
+checkElementsPresents(),Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,001s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/div_XR Expo 2019""), 1)",Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,183s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/LoginButton""), 1)",Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,053s",PASSED
+"verifyElementPresent(findTestObject(""StartPage/RealDigitalSolutions""), 1)",Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,051s",PASSED
+"setViewPortSize(1920, 1080)",Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,183s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:38,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/div_XR Expo 2019""))",Firefox 69.0,,,2019-10-25 15:37:38,2019-10-25 15:37:39,"0,130s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/LoginButton""))",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,069s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/RealDigitalSolutions""))",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,070s",PASSED
+"setViewPortSize(1024, 750)",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,067s",PASSED
+checkElementsVisible(),Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,001s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/div_XR Expo 2019""))",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,094s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/LoginButton""))",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,068s",PASSED
+"verifyElementVisible(findTestObject(""StartPage/RealDigitalSolutions""))",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:39,"0,068s",PASSED
+,,,,,,,
+Test Cases/StartPage/GoToTheLogin,Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:44,"5,393s",PASSED
+"openBrowser(""http://hcc-asset-server.program-ace.net"")",Firefox 69.0,,,2019-10-25 15:37:39,2019-10-25 15:37:43,"4,188s",PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-25 15:37:43,2019-10-25 15:37:44,"0,282s",PASSED
+"click(findTestObject(""StartPage/LoginButton""))",Firefox 69.0,,,2019-10-25 15:37:44,2019-10-25 15:37:44,"0,757s",PASSED
+ActualURL = getUrl(),Firefox 69.0,,,2019-10-25 15:37:44,2019-10-25 15:37:44,"0,014s",PASSED
+"ExpectedURL = ""http://hcc-asset-server.program-ace.net/login""",Firefox 69.0,,,2019-10-25 15:37:44,2019-10-25 15:37:44,"0,000s",PASSED
+if (ActualURL.compareTo(ExpectedURL) == 0),Firefox 69.0,,,2019-10-25 15:37:44,2019-10-25 15:37:44,"0,015s",PASSED
