@@ -32,8 +32,8 @@ email = (('admin' + randomdigit1) + '@gmail.com')
 
 password = ('password' + randomdigit1)
 
-/*f = new File("D://Log"+randomdigit1+".csv")
-	f.append("Email: "+email+"\nName: "+name+"\nPassword: "+password); */
+f = new File("D://Log"+randomdigit1+".csv")
+	f.append("Email: "+email+"\nName: "+name+"\nPassword: "+password); 
 WebUI.callTestCase(findTestCase('LoginPage/Login by Email'), [('Email') : findTestData('DataForLogin/CredentialsForLogin').getValue(
             1, 1), ('Password') : findTestData('DataForLogin/CredentialsForLogin').getValue(3, 1)], FailureHandling.STOP_ON_FAILURE)
 
@@ -58,5 +58,5 @@ WebUI.verifyTextPresent(name, false)
 
 WebUI.verifyTextPresent(email, false)
 
-CustomKeywords.'com.katalon.plugin.keyword.connection.DatabaseKeywords.closeConnection'(null)
+
 
