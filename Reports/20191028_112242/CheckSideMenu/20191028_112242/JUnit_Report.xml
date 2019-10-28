@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CheckSideMenu" time="53.349" tests="3" failures="0" errors="0">
+   <testsuite name="CheckSideMenu" tests="3" failures="0" errors="0" time="53.349" timestamp="2019-10-28 11:22:44" hostname="vladi - DESKTOP-728KFTB" id="Test Suites/CheckSideMenu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vladi\\Katalon Studio\\hcc_asset_server\\Reports\\20191028_112242\\CheckSideMenu\\20191028_112242"/>
+         <property name="logFiles" value="C:\\Users\\vladi\\Katalon Studio\\hcc_asset_server\\Reports\\20191028_112242\\CheckSideMenu\\20191028_112242\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vladi - DESKTOP-728KFTB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="10.1.4.106"/>
+         <property name="sessionId" value="a436e64c8961ba6333e8cd6bbf7a6689"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SideMenu/CheckElementsOfSideMenu" time="19.983" classname="Test Cases/SideMenu/CheckElementsOfSideMenu" status="PASSED">
+         <system-out><![CDATA[2019-10-28 11:22:44 - [TEST_CASE][PASSED] - Test Cases/SideMenu/CheckElementsOfSideMenu: Test Cases/SideMenu/CheckElementsOfSideMenu
+
+2019-10-28 11:22:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginPage/Login by Username"), ["Username":findTestData("DataForLogin/CredentialsForLogin").getValue(1, 1), "Password":findTestData("DataForLogin/CredentialsForLogin").getValue(3, 1)], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginPage/Login by Username' successfully
+
+2019-10-28 11:22:45 - [TEST_CASE][PASSED] - Test Cases/LoginPage/Login by Username: Test Cases/LoginPage/Login by Username
+
+2019-10-28 11:22:46 - [TEST_STEP][PASSED] - openBrowser("http://hcc-asset-server.program-ace.net/login"): Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:22:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 11:22:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-28 11:22:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:22:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-28 11:22:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-28 11:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/EmailField(Username)"), Username, CONTINUE_ON_FAILURE): Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:22:52 - [MESSAGE][PASSED] - Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:22:52 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/PasswordField"), Password, CONTINUE_ON_FAILURE): Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:22:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:22:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Remember Me Checkbox")): Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:22:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:22:54 - [TEST_STEP][PASSED] - checkElementsVisible(): null
+
+2019-10-28 11:22:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/miniAvatarIcon")): Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:22:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/DashboardHeader")): Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:22:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/time")): Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:22:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/TitleOfPage")): Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:22:56 - [TEST_STEP][PASSED] - checkElementsPresents(): null
+
+2019-10-28 11:22:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:56 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/time"), 1): Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:22:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/TitleOfPage"), 1): Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:22:58 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:22:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginPage/Login by Username' successfully
+
+2019-10-28 11:22:58 - [TEST_STEP][PASSED] - checkElementsPresents(): null
+
+2019-10-28 11:22:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:58 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:22:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/miniAvatarIcon"), 1): Object 'Object Repository/Dashboard/miniAvatarIcon' is present
+
+2019-10-28 11:22:59 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is present
+
+2019-10-28 11:22:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/time"), 1): Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:22:59 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:22:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/TitleOfPage"), 1): Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:00 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:00 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2019-10-28 11:23:00 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2019-10-28 11:23:00 - [TEST_STEP][PASSED] - checkElementsVisible(): null
+
+2019-10-28 11:23:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/DashboardHeader")): Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/miniAvatarIcon")): Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/time")): Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/TitleOfPage")): Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:02 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:02 - [TEST_STEP][PASSED] - setViewPortSize(1024, 750): Viewport is set to new size with width = 1024 and height = 750
+
+2019-10-28 11:23:02 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 750
+
+2019-10-28 11:23:02 - [TEST_STEP][PASSED] - checkElementsVisible(): null
+
+2019-10-28 11:23:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/DashboardHeader")): Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/miniAvatarIcon")): Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/time")): Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/TitleOfPage")): Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SideMenu/UseNavigationByMenu(Full Size)" time="15.592" classname="Test Cases/SideMenu/UseNavigationByMenu(Full Size)" status="PASSED">
+         <system-out><![CDATA[2019-10-28 11:23:04 - [TEST_CASE][PASSED] - Test Cases/SideMenu/UseNavigationByMenu(Full Size): Test Cases/SideMenu/UseNavigationByMenu(Full Size)
+
+2019-10-28 11:23:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginPage/Login by Email"), ["Email":findTestData("DataForLogin/CredentialsForLogin").getValue(1, 1), "Password":findTestData("DataForLogin/CredentialsForLogin").getValue(3, 1)], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginPage/Login by Email' successfully
+
+2019-10-28 11:23:04 - [TEST_CASE][PASSED] - Test Cases/LoginPage/Login by Email: Test Cases/LoginPage/Login by Email
+
+2019-10-28 11:23:04 - [TEST_STEP][PASSED] - openBrowser("http://hcc-asset-server.program-ace.net/login"): Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:23:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-10-28 11:23:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 11:23:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:23:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-28 11:23:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-28 11:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/EmailField(Username)"), Email, CONTINUE_ON_FAILURE): Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:23:10 - [MESSAGE][PASSED] - Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/PasswordField"), Password, CONTINUE_ON_FAILURE): Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:23:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:23:10 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Remember Me Checkbox")): Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:23:10 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:23:11 - [TEST_STEP][PASSED] - checkElementsVisible(): null
+
+2019-10-28 11:23:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/miniAvatarIcon")): Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/DashboardHeader")): Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:12 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/time")): Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:12 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/TitleOfPage")): Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:13 - [TEST_STEP][PASSED] - checkElementsPresents(): null
+
+2019-10-28 11:23:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:13 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:14 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/time"), 1): Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:23:14 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:23:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/TitleOfPage"), 1): Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginPage/Login by Email' successfully
+
+2019-10-28 11:23:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/SideMenu/SizeOfMenu"), "class", "navbar-nav bg-gradient-dark sidebar sidebar-dark accordion", 1): Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion'
+
+2019-10-28 11:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion'
+
+2019-10-28 11:23:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SideMenu/TitleWhenOpenedMenu"), 1): Object 'Object Repository/SideMenu/TitleWhenOpenedMenu' is present
+
+2019-10-28 11:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/SideMenu/TitleWhenOpenedMenu' is present
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Users")): Object: 'Object Repository/SideMenu/a_Users' is clicked on
+
+2019-10-28 11:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Users' is clicked on
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/users"): null
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/users'
+
+2019-10-28 11:23:16 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/users'
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:16 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_User Groups")): Object: 'Object Repository/SideMenu/a_User Groups' is clicked on
+
+2019-10-28 11:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_User Groups' is clicked on
+
+2019-10-28 11:23:17 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/groups"): null
+
+2019-10-28 11:23:17 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/groups'
+
+2019-10-28 11:23:17 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/groups'
+
+2019-10-28 11:23:17 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:17 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:17 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Applications")): Object: 'Object Repository/SideMenu/a_Applications' is clicked on
+
+2019-10-28 11:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Applications' is clicked on
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/applications"): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/applications'
+
+2019-10-28 11:23:18 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/applications'
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Assets")): Object: 'Object Repository/SideMenu/a_Assets' is clicked on
+
+2019-10-28 11:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Assets' is clicked on
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/assets"): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/assets'
+
+2019-10-28 11:23:18 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/assets'
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:18 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Banned IPs")): Object: 'Object Repository/SideMenu/a_Banned IPs' is clicked on
+
+2019-10-28 11:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Banned IPs' is clicked on
+
+2019-10-28 11:23:19 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/banned"): null
+
+2019-10-28 11:23:19 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/banned'
+
+2019-10-28 11:23:19 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/banned'
+
+2019-10-28 11:23:19 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:19 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:19 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Dashboard")): Object: 'Object Repository/SideMenu/a_Dashboard' is clicked on
+
+2019-10-28 11:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Dashboard' is clicked on
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin"): null
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin'
+
+2019-10-28 11:23:20 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin'
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SideMenu/UseNavigationByMenu(Minimized)" time="16.438" classname="Test Cases/SideMenu/UseNavigationByMenu(Minimized)" status="PASSED">
+         <system-out><![CDATA[2019-10-28 11:23:20 - [TEST_CASE][PASSED] - Test Cases/SideMenu/UseNavigationByMenu(Minimized): Test Cases/SideMenu/UseNavigationByMenu(Minimized)
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginPage/Login by Email"), ["Email":findTestData("DataForLogin/CredentialsForLogin").getValue(1, 1), "Password":findTestData("DataForLogin/CredentialsForLogin").getValue(3, 1)], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginPage/Login by Email' successfully
+
+2019-10-28 11:23:20 - [TEST_CASE][PASSED] - Test Cases/LoginPage/Login by Email: Test Cases/LoginPage/Login by Email
+
+2019-10-28 11:23:20 - [TEST_STEP][PASSED] - openBrowser("http://hcc-asset-server.program-ace.net/login"): Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:23:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-10-28 11:23:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 11:23:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://hcc-asset-server.program-ace.net/login'
+
+2019-10-28 11:23:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-28 11:23:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-28 11:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/EmailField(Username)"), Email, CONTINUE_ON_FAILURE): Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:23:25 - [MESSAGE][PASSED] - Text 'admin@example.com' is set on object 'Object Repository/LoginPage/EmailField(Username)'
+
+2019-10-28 11:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/PasswordField"), Password, CONTINUE_ON_FAILURE): Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:23:25 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/LoginPage/PasswordField'
+
+2019-10-28 11:23:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/Remember Me Checkbox")): Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/Remember Me Checkbox' is clicked on
+
+2019-10-28 11:23:26 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/button_Login")): Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/button_Login' is clicked on
+
+2019-10-28 11:23:27 - [TEST_STEP][PASSED] - checkElementsVisible(): null
+
+2019-10-28 11:23:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/miniAvatarIcon")): Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/miniAvatarIcon' is visible
+
+2019-10-28 11:23:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/DashboardHeader")): Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is visible
+
+2019-10-28 11:23:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/time")): Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is visible
+
+2019-10-28 11:23:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Dashboard/TitleOfPage")): Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is visible
+
+2019-10-28 11:23:28 - [TEST_STEP][PASSED] - checkElementsPresents(): null
+
+2019-10-28 11:23:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/DashboardHeader"), 1): Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/DashboardHeader' is present
+
+2019-10-28 11:23:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/time"), 1): Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/time' is present
+
+2019-10-28 11:23:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Dashboard/TitleOfPage"), 1): Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:30 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard/TitleOfPage' is present
+
+2019-10-28 11:23:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginPage/Login by Email' successfully
+
+2019-10-28 11:23:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/SideMenu/TitleWhenOpenedMenu"), 1): Object 'Object Repository/SideMenu/TitleWhenOpenedMenu' is present
+
+2019-10-28 11:23:30 - [MESSAGE][PASSED] - Object 'Object Repository/SideMenu/TitleWhenOpenedMenu' is present
+
+2019-10-28 11:23:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/SideMenu/SizeOfMenu"), "class", "navbar-nav bg-gradient-dark sidebar sidebar-dark accordion", 1): Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion'
+
+2019-10-28 11:23:31 - [MESSAGE][PASSED] - Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion'
+
+2019-10-28 11:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SideMenu/HideMenuButton")): Object: 'Object Repository/SideMenu/HideMenuButton' is clicked on
+
+2019-10-28 11:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/HideMenuButton' is clicked on
+
+2019-10-28 11:23:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/SideMenu/SizeOfMenu"), "class", "navbar-nav bg-gradient-dark sidebar sidebar-dark accordion toggled", 1): Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion toggled'
+
+2019-10-28 11:23:32 - [MESSAGE][PASSED] - Object 'Object Repository/SideMenu/SizeOfMenu' has attribute 'class' with value 'navbar-nav bg-gradient-dark sidebar sidebar-dark accordion toggled'
+
+2019-10-28 11:23:32 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Users")): Object: 'Object Repository/SideMenu/a_Users' is clicked on
+
+2019-10-28 11:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Users' is clicked on
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/users"): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/users'
+
+2019-10-28 11:23:33 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/users'
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_User Groups")): Object: 'Object Repository/SideMenu/a_User Groups' is clicked on
+
+2019-10-28 11:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_User Groups' is clicked on
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/groups"): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/groups'
+
+2019-10-28 11:23:33 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/groups'
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:33 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Applications")): Object: 'Object Repository/SideMenu/a_Applications' is clicked on
+
+2019-10-28 11:23:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Applications' is clicked on
+
+2019-10-28 11:23:34 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/applications"): null
+
+2019-10-28 11:23:34 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/applications'
+
+2019-10-28 11:23:34 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/applications'
+
+2019-10-28 11:23:34 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:34 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:34 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Assets")): Object: 'Object Repository/SideMenu/a_Assets' is clicked on
+
+2019-10-28 11:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Assets' is clicked on
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/assets"): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/assets'
+
+2019-10-28 11:23:35 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/assets'
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Banned IPs")): Object: 'Object Repository/SideMenu/a_Banned IPs' is clicked on
+
+2019-10-28 11:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Banned IPs' is clicked on
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin/banned"): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/banned'
+
+2019-10-28 11:23:35 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin/banned'
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null
+
+2019-10-28 11:23:35 - [TEST_STEP][PASSED] - click(findTestObject("SideMenu/a_Dashboard")): Object: 'Object Repository/SideMenu/a_Dashboard' is clicked on
+
+2019-10-28 11:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SideMenu/a_Dashboard' is clicked on
+
+2019-10-28 11:23:36 - [TEST_STEP][PASSED] - CheckURL("http://hcc-asset-server.program-ace.net/admin"): null
+
+2019-10-28 11:23:36 - [TEST_STEP][PASSED] - actual = getUrl(): Current window's url is: 'http://hcc-asset-server.program-ace.net/admin'
+
+2019-10-28 11:23:36 - [MESSAGE][PASSED] - Current window's url is: 'http://hcc-asset-server.program-ace.net/admin'
+
+2019-10-28 11:23:36 - [TEST_STEP][PASSED] - if (actual.compareTo(expected) == 0): null
+
+2019-10-28 11:23:36 - [TEST_STEP][PASSED] - out.println("Correct page is opened!"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-28 11:22:44 - [TEST_SUITE][PASSED] - CheckSideMenu: Test Cases/SideMenu/UseNavigationByMenu(Minimized)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

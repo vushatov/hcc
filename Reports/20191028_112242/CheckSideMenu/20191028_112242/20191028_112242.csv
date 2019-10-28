@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CheckSideMenu,Chrome 77.0.3865.120,,,2019-10-28 11:22:44,2019-10-28 11:23:36,"52,364s",PASSED
+,,,,,,,
+Test Cases/SideMenu/CheckElementsOfSideMenu,Chrome 77.0.3865.120,,,2019-10-28 11:22:44,2019-10-28 11:23:04,"19,983s",PASSED
+"callTestCase(findTestCase(""LoginPage/Login by Username""), [""Username"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(1, 1), ""Password"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(3, 1)], STOP_ON_FAILURE)",Chrome 77.0.3865.120,,,2019-10-28 11:22:44,2019-10-28 11:22:58,"13,137s",PASSED
+checkElementsPresents(),Chrome 77.0.3865.120,,,2019-10-28 11:22:58,2019-10-28 11:22:58,"0,000s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/DashboardHeader""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:22:58,2019-10-28 11:22:58,"0,283s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:22:58,2019-10-28 11:22:59,"0,706s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/time""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:22:59,2019-10-28 11:22:59,"0,280s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Dashboard/TitleOfPage""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:22:59,2019-10-28 11:23:00,"0,719s",PASSED
+"setViewPortSize(1920, 1080)",Chrome 77.0.3865.120,,,2019-10-28 11:23:00,2019-10-28 11:23:00,"0,259s",PASSED
+checkElementsVisible(),Chrome 77.0.3865.120,,,2019-10-28 11:23:00,2019-10-28 11:23:00,"0,000s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:00,2019-10-28 11:23:01,"0,766s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:01,2019-10-28 11:23:01,"0,344s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:01,2019-10-28 11:23:02,"0,662s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:02,2019-10-28 11:23:02,"0,325s",PASSED
+"setViewPortSize(1024, 750)",Chrome 77.0.3865.120,,,2019-10-28 11:23:02,2019-10-28 11:23:02,"0,136s",PASSED
+checkElementsVisible(),Chrome 77.0.3865.120,,,2019-10-28 11:23:02,2019-10-28 11:23:02,"0,002s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/DashboardHeader""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:02,2019-10-28 11:23:03,"0,522s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/miniAvatarIcon""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:03,2019-10-28 11:23:03,"0,320s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/time""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:03,2019-10-28 11:23:04,"0,754s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Dashboard/TitleOfPage""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:04,2019-10-28 11:23:04,"0,340s",PASSED
+,,,,,,,
+Test Cases/SideMenu/UseNavigationByMenu(Full Size),Chrome 77.0.3865.120,,,2019-10-28 11:23:04,2019-10-28 11:23:20,"15,592s",PASSED
+"callTestCase(findTestCase(""LoginPage/Login by Email""), [""Email"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(1, 1), ""Password"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(3, 1)], STOP_ON_FAILURE)",Chrome 77.0.3865.120,,,2019-10-28 11:23:04,2019-10-28 11:23:15,"10,465s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/SideMenu/SizeOfMenu""), ""class"", ""navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"", 1)",Chrome 77.0.3865.120,,,2019-10-28 11:23:15,2019-10-28 11:23:15,"0,305s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/SideMenu/TitleWhenOpenedMenu""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:23:15,2019-10-28 11:23:16,"0,701s",PASSED
+"click(findTestObject(""SideMenu/a_Users""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:16,2019-10-28 11:23:16,"0,685s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/users"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:16,2019-10-28 11:23:16,"0,001s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:16,2019-10-28 11:23:16,"0,026s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:16,2019-10-28 11:23:16,"0,018s",PASSED
+"click(findTestObject(""SideMenu/a_User Groups""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:16,2019-10-28 11:23:17,"0,587s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/groups"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:17,2019-10-28 11:23:17,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:17,2019-10-28 11:23:17,"0,017s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:17,2019-10-28 11:23:17,"0,000s",PASSED
+"click(findTestObject(""SideMenu/a_Applications""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:17,2019-10-28 11:23:18,"0,621s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/applications"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,002s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,021s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,000s",PASSED
+"click(findTestObject(""SideMenu/a_Assets""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,717s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/assets"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,008s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:18,"0,000s",PASSED
+"click(findTestObject(""SideMenu/a_Banned IPs""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:18,2019-10-28 11:23:19,"0,591s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/banned"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:19,2019-10-28 11:23:19,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:19,2019-10-28 11:23:19,"0,018s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:19,2019-10-28 11:23:19,"0,001s",PASSED
+"click(findTestObject(""SideMenu/a_Dashboard""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:19,2019-10-28 11:23:20,"0,575s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:20,2019-10-28 11:23:20,"0,001s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:20,2019-10-28 11:23:20,"0,015s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:20,2019-10-28 11:23:20,"0,001s",PASSED
+,,,,,,,
+Test Cases/SideMenu/UseNavigationByMenu(Minimized),Chrome 77.0.3865.120,,,2019-10-28 11:23:20,2019-10-28 11:23:36,"16,438s",PASSED
+"callTestCase(findTestCase(""LoginPage/Login by Email""), [""Email"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(1, 1), ""Password"":findTestData(""DataForLogin/CredentialsForLogin"").getValue(3, 1)], STOP_ON_FAILURE)",Chrome 77.0.3865.120,,,2019-10-28 11:23:20,2019-10-28 11:23:30,"10,349s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/SideMenu/TitleWhenOpenedMenu""), 1)",Chrome 77.0.3865.120,,,2019-10-28 11:23:30,2019-10-28 11:23:30,"0,266s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/SideMenu/SizeOfMenu""), ""class"", ""navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"", 1)",Chrome 77.0.3865.120,,,2019-10-28 11:23:30,2019-10-28 11:23:31,"0,803s",PASSED
+"click(findTestObject(""Object Repository/SideMenu/HideMenuButton""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:31,2019-10-28 11:23:32,"0,430s",PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/SideMenu/SizeOfMenu""), ""class"", ""navbar-nav bg-gradient-dark sidebar sidebar-dark accordion toggled"", 1)",Chrome 77.0.3865.120,,,2019-10-28 11:23:32,2019-10-28 11:23:32,"0,542s",PASSED
+"click(findTestObject(""SideMenu/a_Users""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:32,2019-10-28 11:23:33,"0,686s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/users"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,001s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,013s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,003s",PASSED
+"click(findTestObject(""SideMenu/a_User Groups""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,603s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/groups"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,001s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,010s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:33,"0,000s",PASSED
+"click(findTestObject(""SideMenu/a_Applications""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:33,2019-10-28 11:23:34,"0,601s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/applications"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:34,2019-10-28 11:23:34,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:34,2019-10-28 11:23:34,"0,008s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:34,2019-10-28 11:23:34,"0,001s",PASSED
+"click(findTestObject(""SideMenu/a_Assets""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:34,2019-10-28 11:23:35,"0,725s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/assets"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,008s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,000s",PASSED
+"click(findTestObject(""SideMenu/a_Banned IPs""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,616s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin/banned"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,012s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:35,"0,001s",PASSED
+"click(findTestObject(""SideMenu/a_Dashboard""))",Chrome 77.0.3865.120,,,2019-10-28 11:23:35,2019-10-28 11:23:36,"0,570s",PASSED
+"CheckURL(""http://hcc-asset-server.program-ace.net/admin"")",Chrome 77.0.3865.120,,,2019-10-28 11:23:36,2019-10-28 11:23:36,"0,000s",PASSED
+actual = getUrl(),Chrome 77.0.3865.120,,,2019-10-28 11:23:36,2019-10-28 11:23:36,"0,015s",PASSED
+if (actual.compareTo(expected) == 0),Chrome 77.0.3865.120,,,2019-10-28 11:23:36,2019-10-28 11:23:36,"0,001s",PASSED
