@@ -26,19 +26,20 @@ int randomdigit = 1 + ((Math.random() * ((1000 - 1) + 1)) as int)
 
 String randomdigit1 = Integer.toString(randomdigit)
 
-name = ('admin' + randomdigit1)
+name = ('manager' + randomdigit1)
 
-email = (('admin' + randomdigit1) + '@gmail.com')
+email = (('manager' + randomdigit1) + '@gmail.com')
 
-password = ('password' + randomdigit1)
+password = ('manager' + randomdigit1)
 
-f = new File("D://Log_admin.csv")
-	f.append("\nCredentials:\n"+email+"\n"+name+"\n"+password); 
-	
+f = new File('D://Log_manager.csv')
+
+f.append((((('\nCredentials:\n' + email) + '\n') + name) + '\n') + password)
+
 WebUI.callTestCase(findTestCase('LoginPage/Login by Email'), [('Email') : findTestData('DataForLogin/CredentialsForLogin').getValue(
             1, 1), ('Password') : findTestData('DataForLogin/CredentialsForLogin').getValue(3, 1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://hcc-asset-server.program-ace.net/admin/users/create')
+WebUI.navigateToUrl('http://hcc-asset-server.program-ace.net/admin/users/create', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/USERS/CreateUser(Create)/CreateUserHeader'), 1)
 
@@ -46,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/USERS/CreateUser(Create)/NameFie
 
 WebUI.setText(findTestObject('Object Repository/USERS/CreateUser(Create)/EmailField'), email)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/USERS/CreateUser(Create)/AuthorityPopUp'), 'Admin', false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/USERS/CreateUser(Create)/AuthorityPopUp'), 'Manager', false)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/USERS/CreateUser(Create)/UserGroupPopUp                                                                                                                                                1'), 
     '2', false)
@@ -70,5 +71,4 @@ while (c == 1) {
         c = 0
     }
 }
-
 
